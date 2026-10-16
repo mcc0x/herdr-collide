@@ -33,7 +33,7 @@ test fail, the test is right and the change is wrong.
 ## Getting set up
 
 ```sh
-git clone https://github.com/moneycaringcoder/herdr-collide
+git clone https://github.com/mcc0x/herdr-collide
 cd herdr-collide
 cargo build --release
 herdr plugin link .          # note: `link` does NOT run the build step
