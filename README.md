@@ -7,7 +7,7 @@
 **Warns you when agents working in different git worktrees of one repository are about to step on
 each other — and whether their edits merely overlap or will actually conflict.**
 
-[![CI](https://github.com/moneycaringcoder/herdr-collide/actions/workflows/ci.yml/badge.svg)](https://github.com/moneycaringcoder/herdr-collide/actions/workflows/ci.yml)
+[![CI](https://github.com/mcc0x/herdr-collide/actions/workflows/ci.yml/badge.svg)](https://github.com/mcc0x/herdr-collide/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![herdr](https://img.shields.io/badge/herdr-%E2%89%A5%200.8.0-8b949e.svg)](https://herdr.dev)
 [![read-only](https://img.shields.io/badge/your%20repos-never%20written%20to-2da44e.svg)](#how-it-works)
@@ -134,7 +134,7 @@ Enter never runs a second merge for the cycle on screen.
 ## Install
 
 ```sh
-herdr plugin install moneycaringcoder/herdr-collide
+herdr plugin install mcc0x/herdr-collide
 ```
 
 Installing runs the plugin's build step for you, so you end up with a compiled
@@ -143,7 +143,7 @@ Installing runs the plugin's build step for you, so you end up with a compiled
 To develop against a local checkout instead:
 
 ```sh
-git clone https://github.com/moneycaringcoder/herdr-collide
+git clone https://github.com/mcc0x/herdr-collide
 cd herdr-collide
 cargo build --release          # required: `link` does NOT run the build step
 herdr plugin link .
